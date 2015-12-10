@@ -1,0 +1,32 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "simple todo application",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --progress --colors --hot --inline",
+    "build": "webpack && cp index.html ../server/public/"
+  },
+  "keywords": [
+    "todo",
+    "app"
+  ],
+  "author": "Brian Nations",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.4.8",
+    "angular-resource": "^1.4.8",
+    "angular-route": "^1.4.8",
+    "moment": "^2.10.6"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "css-loader": "^0.23.0",
+    "mocha": "^2.3.4",
+    "node-sass": "^3.4.2",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  }
+}

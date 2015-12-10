@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="TodoApp">
+<head>
+    <title>Task Fellows</title>
+    <link href='https://fonts.googleapis.com/css?family=Play|PT+Sans' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+    <header>
+        <div class="inner">
+            <img class="logo" src="/assets/img/logo.png" alt="logo">
+            <img class="mobile-icon" src="/assets/img/mobile-icon.png" />
+        </div>
+        <div class="info-bar">Task Fellows!  The definitive task tool.</div>
+    </header>
+
+    <main>
+        <div ng-view></div>
+    </main>
+
+    <footer>
+        <div>
+            <span>JSDA - Task Fellows 2015</span>
+            <img src="/assets/img/cf-icon.png" />
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="bundle.js"></script>
+
+</body>
+</html>

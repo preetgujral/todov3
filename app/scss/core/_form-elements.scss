@@ -1,0 +1,48 @@
+input[type="text"] {
+    padding: 12px;
+    font-size: 16px;
+    width: 75%;
+    border: solid 1px $std-msg;
+    border-radius: 3px;
+    margin-bottom: $gutter;
+    transition: 350ms all;
+
+    &:focus {
+        background: #282D2F;
+        color: #fff;
+    }
+
+}
+
+label {
+    font-family: 'PT Sans';
+    margin-left: 20px;
+    font-size: 14px;
+    cursor: pointer;
+
+    &:hover {
+        color: $peach;
+    }
+
+    input {
+        margin-left: 5px;
+    }
+}
+
+button {
+    background: $btn-primary;
+    color: $white;
+    border: none;
+    padding: 14px;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-left: 2%;
+    border-radius: 3px;
+    width: 18%;
+    transition: 350ms all;
+    cursor: pointer;
+
+    &:hover {
+        background: $btn-secondary;
+    }
+}
